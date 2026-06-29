@@ -1,4 +1,4 @@
-                            Question 3:  Longest Substring Without Repeating Characters
+Question 3:  Longest Substring Without Repeating Characters
 
 Given a string s, find the length of the longest substring without duplicate characters.
 Example 1:
@@ -17,7 +17,7 @@ Output: 3
 Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
-                        # SOLUTION:
+SOLUTION:
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
