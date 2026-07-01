@@ -17,12 +17,8 @@ SOLUTION:
 
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2):
-        
         merged = nums1 + nums2
-
-       
         merged.sort()
-
         total = len(merged)
 
         if total % 2 == 1:
